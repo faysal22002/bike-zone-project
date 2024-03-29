@@ -1,0 +1,169 @@
+/* header */
+.header{
+    background-color: rgb(94, 92, 90);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+/* navigation-bar */
+.navigation-bar ul {
+display: flex;
+list-style: none;
+
+}
+.navigation-bar ul li{
+    margin-right: 20px;
+}
+.navigation-bar ul li a{
+   text-decoration: none;
+   font-size: 25px;
+}
+.button{
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.button a{ 
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* navigation-bar end*/
+/* part-1 */
+.part-1{
+    background-color: bisque;
+    margin: 20px;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+img{
+    height: 450px;
+    width: 450px;
+}
+/* sec-1 */
+h1{
+    text-align: center;
+   text-transform: capitalize;
+}
+h5{
+    text-align: center;
+    color: coral;
+    text-transform: capitalize;
+   text-decoration: underline;
+   margin-bottom: 10px;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    margin: 80px;
+}
+/* sec-2 */
+.sec-2{
+    background-color: rgb(169, 230, 230);
+    margin: 20px;
+    padding: 20px;
+   
+}
+.new-bike{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+   
+}
+.new-bike-img{
+    height: 400px;
+    width: 400px;
+  
+}
+.div-1{
+    background-color: white;
+    padding: 5px;
+   border-radius: 10px;
+   flex: 1;
+    
+}
+h3{
+    text-transform: capitalize;
+}
+/* sec-3 */
+.clients{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+    display: flex;
+    gap: 20px;
+}
+
+.div-2{
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    flex: 1;
+    
+}
+.div-2 img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.bank{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.star{
+    color: rgb(240, 110, 5);
+}
+/* footer */
+.footer{
+    background-color: rgb(1, 1, 32);
+    height: 300px;
+    margin: 20px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 50px;
+   
+   
+}
+.last-part{
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.contact{
+    font-size: 30px;
+}
+.fa-solid{
+    margin-right: 10px;
+    font-size: 40px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.last-icon{
+    font-size: 40px;
+   padding-left: 10px;
+}
+.last-icon i{
+  
+   padding-left: 20px;
+}
